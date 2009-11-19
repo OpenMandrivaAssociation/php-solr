@@ -5,7 +5,7 @@
 
 Summary:	Simplifies the process of interacting with Apache Solr using PHP
 Name:		php-%{modname}
-Version:	0.9.6
+Version:	0.9.7
 Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
