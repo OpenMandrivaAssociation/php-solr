@@ -5,15 +5,15 @@
 
 Summary:	Simplifies the process of interacting with Apache Solr using PHP
 Name:		php-%{modname}
-Version:	0.9.9
-Release:	%mkrel 2
+Version:	0.9.10
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/solr/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 BuildRequires:	php-devel >= 3:5.2.11
-BuildRequires:	curl-devel >= 7.18.0
-BuildRequires:	libxml2-devel >= 2.6.31
+BuildRequires:	curl-devel >= 7.15.0
+BuildRequires:	libxml2-devel >= 2.6.26
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
@@ -70,4 +70,3 @@ rm -rf %{buildroot}
 %doc CREDITS LICENSE README* TODO package*.xml
 %config(noreplace) %attr(0644,root,root) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
-
