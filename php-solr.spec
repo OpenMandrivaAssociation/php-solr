@@ -6,7 +6,7 @@
 Summary:	Simplifies the process of interacting with Apache Solr using PHP
 Name:		php-%{modname}
 Version:	1.0.1
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/solr/
