@@ -9,7 +9,7 @@ Version:	2.0.0
 Release:	2
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/solr/
+URL:		https://pecl.php.net/package/solr/
 Source0:	http://pecl.php.net/get/%{modname}-%{version}.tgz
 BuildRequires:	php-devel >= 3:5.2.11
 BuildRequires:	curl-devel >= 7.15.0
